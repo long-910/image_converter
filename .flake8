@@ -1,0 +1,4 @@
+[flake8]
+ignore = E501 # 1行の文字数チェックをignoreにする
+; exclude = tests/*
+max-complexity = 10
