@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
-'''This is setup.py
-'''
-from setuptools import setup, find_packages
+"""This is setup.py
+"""
+import setuptools
 
-setup(name='ImageConverter',
-      license="MIT",
-      install_requires=['Pillow', 'numpy', 'tqdm', 'argparse'],
-      packages=find_packages())
+setuptools.setup(
+    name="ImageConverter",
+    license="MIT",
+    install_requires=["Pillow", "numpy", "tqdm", "argparse"],
+    packages=setuptools.find_packages(),
+)
