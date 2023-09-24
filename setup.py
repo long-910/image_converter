@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''This is setup.py
 '''
 from setuptools import setup, find_packages
