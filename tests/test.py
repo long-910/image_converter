@@ -1,3 +1,9 @@
+"""This is test.py
+"""
+
 
 def test():
-    assert True == True
+    '''
+    This is the function named test
+    '''
+    assert True
